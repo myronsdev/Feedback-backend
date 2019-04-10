@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "env-cmd ./config/dev.env node index.js"
+    "dev": "env-cmd ./config/dev.env nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +19,8 @@
     "express": "^4.16.4",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
